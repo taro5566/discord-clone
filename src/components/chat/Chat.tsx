@@ -75,7 +75,7 @@ const Chat = () => {
         <form>
           <input
             type="text"
-            placeholder="#Ubemyへメッセージ送信"
+            placeholder="メッセージ送信"
             onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
               setInputText(e.target.value)
             }
